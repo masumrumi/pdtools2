@@ -1,0 +1,57 @@
+action: GLOB, msg: packaging
+cwd: /Users/masumrumi/masum_github/python_packages/pdtools2
+cmd: /Users/masumrumi/opt/anaconda3/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing pdtools2.egg-info/PKG-INFO
+writing dependency_links to pdtools2.egg-info/dependency_links.txt
+writing requirements to pdtools2.egg-info/requires.txt
+writing top-level names to pdtools2.egg-info/top_level.txt
+reading manifest file 'pdtools2.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'pdtools2.egg-info/SOURCES.txt'
+running check
+warning: Check: missing required meta-data: url
+
+warning: Check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating pdtools2-0.1.1
+creating pdtools2-0.1.1/pdtools2
+creating pdtools2-0.1.1/pdtools2.egg-info
+creating pdtools2-0.1.1/pdtools2/reduce_memory
+copying files to pdtools2-0.1.1...
+copying LICENSE -> pdtools2-0.1.1
+copying MANIFEST.in -> pdtools2-0.1.1
+copying README.md -> pdtools2-0.1.1
+copying setup.py -> pdtools2-0.1.1
+copying pdtools2/__init__.py -> pdtools2-0.1.1/pdtools2
+copying pdtools2/pd_viz.py -> pdtools2-0.1.1/pdtools2
+copying pdtools2.egg-info/PKG-INFO -> pdtools2-0.1.1/pdtools2.egg-info
+copying pdtools2.egg-info/SOURCES.txt -> pdtools2-0.1.1/pdtools2.egg-info
+copying pdtools2.egg-info/dependency_links.txt -> pdtools2-0.1.1/pdtools2.egg-info
+copying pdtools2.egg-info/requires.txt -> pdtools2-0.1.1/pdtools2.egg-info
+copying pdtools2.egg-info/top_level.txt -> pdtools2-0.1.1/pdtools2.egg-info
+copying pdtools2/reduce_memory/__init__.py -> pdtools2-0.1.1/pdtools2/reduce_memory
+copying pdtools2/reduce_memory/mem_reduce.py -> pdtools2-0.1.1/pdtools2/reduce_memory
+Writing pdtools2-0.1.1/setup.cfg
+creating '.tox/dist/pdtools2-0.1.1.zip' and adding 'pdtools2-0.1.1' to it
+adding 'pdtools2-0.1.1'
+adding 'pdtools2-0.1.1/pdtools2'
+adding 'pdtools2-0.1.1/pdtools2.egg-info'
+adding 'pdtools2-0.1.1/PKG-INFO'
+adding 'pdtools2-0.1.1/LICENSE'
+adding 'pdtools2-0.1.1/MANIFEST.in'
+adding 'pdtools2-0.1.1/README.md'
+adding 'pdtools2-0.1.1/setup.py'
+adding 'pdtools2-0.1.1/setup.cfg'
+adding 'pdtools2-0.1.1/pdtools2/reduce_memory'
+adding 'pdtools2-0.1.1/pdtools2/pd_viz.py'
+adding 'pdtools2-0.1.1/pdtools2/__init__.py'
+adding 'pdtools2-0.1.1/pdtools2/reduce_memory/__init__.py'
+adding 'pdtools2-0.1.1/pdtools2/reduce_memory/mem_reduce.py'
+adding 'pdtools2-0.1.1/pdtools2.egg-info/PKG-INFO'
+adding 'pdtools2-0.1.1/pdtools2.egg-info/SOURCES.txt'
+adding 'pdtools2-0.1.1/pdtools2.egg-info/requires.txt'
+adding 'pdtools2-0.1.1/pdtools2.egg-info/top_level.txt'
+adding 'pdtools2-0.1.1/pdtools2.egg-info/dependency_links.txt'
+removing 'pdtools2-0.1.1' (and everything under it)
